@@ -20,7 +20,9 @@ The front-end can be found in the ‘platform-client’ directory.
 
 In order for the website to display information relevant to your specific deployment, it queries the API for the information that it requires. The front-end does not store the information shown on the website, but instead it pulls it from the API. The following diagram is a brief example of how the front-end interacts with the back-end.
 
-![](images/development/01.png)
+<p align="center">
+  <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/development/01.png" width=60% height=60%/>
+</p>
 
 For more detailed information about APIs, please visit
 [*https://en.wikipedia.org/wiki/Application\_programming\_interface*](https://en.wikipedia.org/wiki/Application_programming_interface)
