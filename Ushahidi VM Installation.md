@@ -69,17 +69,17 @@ The Ushahidi Project ([*https://www.ushahidi.com*](https://www.ushahidi.com)) is
 
 You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
 
-11.  Change directory with ‘cd’ into the directory **platform-client**
+11. Change directory with ‘cd’ into the directory **platform-client**
 
-12.  Type “**npm run watch”** into the terminal
+12. Type "**npm run watch**" into the terminal
 
     a.  After a few seconds you should see green text that concludes with `webpack: Compiled successfully`
 
-![](images/installation/04.png)
+> ![](images/installation/04.png)
 
 **Note:** When you are finished running the server, use CTRL + c to stop the server.
 
-13.  (optional) If you wish to interact with the Ushahidi service from your host system, then you must do the following:
+13. (optional) If you wish to interact with the Ushahidi service from your host system, then you must do the following:
 
     a.  On the righthand side of the screen, there is an icon that displays two arrows going Up and Down. Right click the icon, and select “Connection Information”
 
@@ -91,7 +91,7 @@ You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
 
     c.  Copy down the IP address shown in the output, as this will be needed to access the VM from your Host system. In our case the address is **192.168.56.4**
 
-14.  Depending on how you wish to interact with your VM, follow the applicable instructions below.
+14. Depending on how you wish to interact with your VM, follow the applicable instructions below.
 
     a.  From within the VM itself, you can access the Ushahidi services by using the address of ‘**localhost**’.
 
@@ -99,15 +99,15 @@ You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
 
 **Accessing the Ushahidi Website**
 
-15.  Open a new Firefox browser in the VM by clicking the Firefox icon next to the menu on the upper lefthand of the screen next to “System”, or your preferred browser if you are using your host system.
+15. Open a new Firefox browser in the VM by clicking the Firefox icon next to the menu on the upper lefthand of the screen next to “System”, or your preferred browser if you are using your host system.
 
 16.  Navigate to the address we found in **Step 14**, followed by “**:3000**”. From within the VM, this address will be “**localhost:3000**”. From the host system, this address in our case will be “**192.168.56.4:3000**”.
 
-17.  After opening the Ushahidi website loads, you should be greeted with a world map. It should look like the following.
+17. After opening the Ushahidi website loads, you should be greeted with a world map. It should look like the following.
 
 ![](images/installation/07.png)
 
-18.  Click the “Log in” button in the lower lefthand corner of the browser. To access the admin account enter the email "**admin@admin.com**” and the password “**adminadmin**”.
+18. Click the “Log in” button in the lower lefthand corner of the browser. To access the admin account enter the email "**admin@admin.com**” and the password “**adminadmin**”.
 
 ![](images/installation/08.png)
 
@@ -117,13 +117,13 @@ After you are successfully logged in, you will see a blue profile picture in the
 
 **Interacting with the Ushahidi API**
 
-19.  You can access the Ushahidi API using “localhost” on the VM itself, or by using the address found in **Step 14**. In our case this is “192.168.56.4”.
+19. You can access the Ushahidi API using “localhost” on the VM itself, or by using the address found in **Step 14**. In our case this is “192.168.56.4”.
 
-20.  When you are finished using the Ushahidi VM, power it down using Power button in the upper righthand corner of the screen. After it is clicked, a dialog box will show a 60 second timer. You can wait for this to timeout, or click ‘Shut down’ to skip the timer.
+20. When you are finished using the Ushahidi VM, power it down using Power button in the upper righthand corner of the screen. After it is clicked, a dialog box will show a 60 second timer. You can wait for this to timeout, or click ‘Shut down’ to skip the timer.
 
 **Interacting with the the Ushahidi Website**
 
-21.  In order to become familiar with the website, lets submit a new Post to be added to the website.
+21. In order to become familiar with the website, lets submit a new Post to be added to the website.
 
     a.  Navigate to the Map page.
 
@@ -141,7 +141,7 @@ After you are successfully logged in, you will see a blue profile picture in the
 
     g.  After you submit your post it will be considered ‘Under review’, and will only be displayed after it is approved by an administrator.
 
-22.  Approving Posts that are under review.
+22. Approving Posts that are under review.
 
     a.  Login with the Administrator account as detailed in **Step 18**.
 
