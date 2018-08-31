@@ -50,7 +50,9 @@ The Ushahidi Project ([*https://www.ushahidi.com*](https://www.ushahidi.com)) is
 
     b.  Looking at the VM’s information displayed on the righthand side, look for the tab labeled “Network”. This tab should contain two network adapters, verify that the first adapter has the text **NAT** and that the second has **Host-only Adapter** at the end. The network tab should look like the following (note: your network interface may have a different name).
 
-![](images/installation/02.png)
+    <p align="center">
+        <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/02.png"/>
+    </p>
 
 **Things you do each time you want to run the VM**
 
@@ -65,7 +67,9 @@ The Ushahidi Project ([*https://www.ushahidi.com*](https://www.ushahidi.com)) is
 
 10.  A window will appear showing an Ubuntu Desktop. Under “Applications” &gt; ‘System Tools”, select “MATE Terminal”.
 
-![](images/installation/03.png)
+<p align="center">
+  <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/03.png"/>
+</p>
 
 You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
 
@@ -74,27 +78,33 @@ You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
 12. Type "**npm run watch**" into the terminal
 
     a.  After a few seconds you should see green text that concludes with `webpack: Compiled successfully`
-
-> ![](images/installation/04.png)
-
+    
+<p align="center">
+  <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/04.png"/>
+</p>
+    
 **Note:** When you are finished running the server, use CTRL + c to stop the server.
 
 13. (optional) If you wish to interact with the Ushahidi service from your host system, then you must do the following:
 
-    a.  On the righthand side of the screen, there is an icon that displays two arrows going Up and Down. Right click the icon, and select “Connection Information”
+    a. On the righthand side of the screen, there is an icon that displays two arrows going Up and Down. Right click the icon, and select “Connection Information”
 
-    ![](images/installation/05.png)
-
-    b.  Select the tab “Wired Connection 2”, and find the IP address under the IPv4 tab.
-
-    ![](images/installation/06.png)
-
-    c.  Copy down the IP address shown in the output, as this will be needed to access the VM from your Host system. In our case the address is **192.168.56.4**
+    <p align="center">
+        <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/05.png"/>
+    </p>
+    
+    b. Select the tab “Wired Connection 2”, and find the IP address under the IPv4 tab.
+        
+    <p align="center">
+        <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/06.png"/>
+    </p>
+    
+    c. Copy down the IP address shown in the output, as this will be needed to access the VM from your Host system. In our case the address is **192.168.56.4**
 
 14. Depending on how you wish to interact with your VM, follow the applicable instructions below.
 
     a.  From within the VM itself, you can access the Ushahidi services by using the address of ‘**localhost**’.
-
+    
     b.  From your host machine, you can access the Ushahidi services by using the address we found in **Step 13c**. In our case, the address is “**192.168.56.4**”
 
 **Accessing the Ushahidi Website**
@@ -105,15 +115,22 @@ You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
 
 17. After opening the Ushahidi website loads, you should be greeted with a world map. It should look like the following.
 
-![](images/installation/07.png)
+<p align="center">
+  <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/07.png"/>
+</p>
 
 18. Click the “Log in” button in the lower lefthand corner of the browser. To access the admin account enter the email "**admin@admin.com**” and the password “**adminadmin**”.
 
-![](images/installation/08.png)
+<p align="center">
+  <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/08.png"/>
+</p>
 
 After you are successfully logged in, you will see a blue profile picture in the lower left hand corner.
 
-![](images/installation/09.png)
+
+<p align="center">
+  <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/09.png"/>
+</p>
 
 **Interacting with the Ushahidi API**
 
@@ -129,7 +146,9 @@ After you are successfully logged in, you will see a blue profile picture in the
 
     b.  Click on the large yellow plus sign in the left hand corner of the map. You will then be shown the form used to create a new post.
 
-    ![](images/installation/10.png)
+    <p align="center">
+        <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/10.png"/>
+    </p>
 
     c.  Enter the location of where the event happened by searching the location in the textbox above the map, clicking the location on the map, or specify the coordinates.
 
@@ -147,11 +166,16 @@ After you are successfully logged in, you will see a blue profile picture in the
 
     b.  After you are logged in with an administratora account, click the ‘Data’ icon in the menu on the left.
 
-    ![](images/installation/11.png)
+    <p align="center">
+        <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/11.png"/>
+    </p>
 
     c.  All of the posts on the website will be shown in the column on the left side of the window. Posts that are awaiting approval will have the ‘Under review’ tag.
 
-    ![](images/installation/12.png)
+    
+    <p align="center">
+        <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/12.png"/>
+    </p>
 
     Click on any post to view the details about it.
 
