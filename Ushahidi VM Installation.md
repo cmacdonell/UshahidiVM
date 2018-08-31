@@ -1,5 +1,7 @@
 # Table of Contents #
 
+
+
 [Things you only have to do once](#things-you-only-have-to-do-once)
 
 [Things you do each time you want to run the VM](#things-you-do-each-time-you-want-to-run-the-vm)
@@ -11,7 +13,7 @@
 [Interacting with the the Ushahidi Website](#interacting-with-the-the-ushahidi-website)
 
 
-# Overall Details #
+# Setup and run the VM #
 
 ## Things you only have to do once ##
 
@@ -118,9 +120,11 @@ You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
 
     b.  From your host machine, you can access the Ushahidi services by using the address we found in **Step 13c**. In our case, the address is “**192.168.56.4**”
 
+# Using the VM #
+
 ## Accessing the Ushahidi Website ##
 
-15. Open a new Firefox browser in the VM by clicking the Firefox icon next to the menu on the upper lefthand of the screen next to “System”, or your preferred browser if you are using your host system.
+15. Open a new browser (Chrome/Firefox/Safari/etc) in the VM by clicking the Firefox icon next to the menu on the upper lefthand of the screen next to “System”, or your preferred browser if you are using your host system.
 
 16.  Navigate to the address we found in **Step 14**, followed by “**:3000**”. From within the VM, this address will be “**localhost:3000**”. From the host system, this address in our case will be “**192.168.56.4:3000**”.
 
