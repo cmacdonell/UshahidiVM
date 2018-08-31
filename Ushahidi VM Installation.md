@@ -1,10 +1,14 @@
 # Table of Contents #
 
-[Interacting with the Ushahidi API](##Interacting with the Ushahidi API)
-[Things you only have to do once](##Things you only have to do once)
-[Things you do each time you want to run the VM](##Things you do each time you want to run the VM)
-[Accessing the Ushahidi Website](##Accessing the Ushahidi Website)
-[Interacting with the the Ushahidi Website](##Interacting with the the Ushahidi Website)
+[Things you only have to do once](#things-you-only-have-to-do-once)
+
+[Things you do each time you want to run the VM](#things-you-do-each-time-you-want-to-run-the-vm)
+
+[Interacting with the Ushahidi API](#interacting-with-the-ushahidi-api)
+
+[Accessing the Ushahidi Website](#accessing-the-ushahidi-website)
+
+[Interacting with the the Ushahidi Website](#interacting-with-the-the-ushahidi-website)
 
 
 # Overall Details #
