@@ -1,6 +1,5 @@
 # Table of Contents #
 
-
 1. **Setup**
     1. [Things you only have to do once](#things-you-only-have-to-do-once)
     2. [Things you do each time you want to run the VM](#things-you-do-each-time-you-want-to-run-the-vm)
@@ -15,7 +14,7 @@
 
 ## Things you only have to do once ##
 
-1.  Download the appliance from this directory. The file is named “Ubuntu-Ushahidi-2.ova”. It is a complete virtual machine and is a large file, over 5GB.
+1.  Download the appliance from this directory. The file is named “Ubuntu-Ushahidi-2.ova”. It is a complete virtual machine and is a large file, over 5GB. The \*.ova file is available a Google Drive folder [here](https://drive.google.com/drive/u/2/folders/1ueY-1drF7QVbzqsZC8FylkyHIMpyjv-Z).
 
 2.  Download and install VirtualBox ([*https://www.virtualbox.org/*](https://www.virtualbox.org/)), a free program that runs virtual machines. I suggest using the latest version which is version 5.2.18 at the time this document was written.
 
