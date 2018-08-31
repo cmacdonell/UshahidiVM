@@ -1,4 +1,4 @@
-**Ushahidi Contributing Instructions**
+# Ushahidi Contributing Instructions #
 
 The two relevant repositories are **platform** ([*https://github.com/ushahidi/platform*](https://github.com/ushahidi/platform)), and **platform-client** ([*https://github.com/ushahidi/platform-client*](https://github.com/ushahidi/platform-client)). It is recommended that you fork the original repositories, and contribute to your own repository.
 

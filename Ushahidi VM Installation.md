@@ -1,8 +1,15 @@
-The Ushahidi Project ([*https://www.ushahidi.com*](https://www.ushahidi.com)) is an open-source crisis mapping web application. There are several software components hosted at [*https://github.com/ushahidi/*](https://github.com/ushahidi/) but two that are relevant are **platform** ([*https://github.com/ushahidi/platform*](https://github.com/ushahidi/platform)) and **platform-client** ([*https://github.com/ushahidi/platform-client*](https://github.com/ushahidi/platform-client)). The Ushahidi VM that you will be using already has both projects installed.
+# Table of Contents #
 
-**Overall details**
+[Interacting with the Ushahidi API](##Interacting with the Ushahidi API)
+[Things you only have to do once](##Things you only have to do once)
+[Things you do each time you want to run the VM](##Things you do each time you want to run the VM)
+[Accessing the Ushahidi Website](##Accessing the Ushahidi Website)
+[Interacting with the the Ushahidi Website](##Interacting with the the Ushahidi Website)
 
-**Things you only have to do once**
+
+# Overall Details #
+
+## Things you only have to do once ##
 
 1.  Download the appliance from this directory. The file is named “Ubuntu-Ushahidi-2.ova”. It is a complete virtual machine and is a large file, over 5GB.
 
@@ -54,7 +61,7 @@ The Ushahidi Project ([*https://www.ushahidi.com*](https://www.ushahidi.com)) is
         <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/02.png"/>
     </p>
 
-**Things you do each time you want to run the VM**
+## Things you do each time you want to run the VM ##
 
 **Note:** The password to the default user account on the Ushahidi VM is
 “**sigcse**”
@@ -78,11 +85,11 @@ You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
 12. Type "**npm run watch**" into the terminal
 
     a.  After a few seconds you should see green text that concludes with `webpack: Compiled successfully`
-    
+
 <p align="center">
   <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/04.png"/>
 </p>
-    
+
 **Note:** When you are finished running the server, use CTRL + c to stop the server.
 
 13. (optional) If you wish to interact with the Ushahidi service from your host system, then you must do the following:
@@ -92,22 +99,22 @@ You may also use the shortcut “Alt + Ctrl + t” to open a terminal.
     <p align="center">
         <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/05.png"/>
     </p>
-    
+
     b. Select the tab “Wired Connection 2”, and find the IP address under the IPv4 tab.
-        
+
     <p align="center">
         <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/06.png"/>
     </p>
-    
+
     c. Copy down the IP address shown in the output, as this will be needed to access the VM from your Host system. In our case the address is **192.168.56.4**
 
 14. Depending on how you wish to interact with your VM, follow the applicable instructions below.
 
     a.  From within the VM itself, you can access the Ushahidi services by using the address of ‘**localhost**’.
-    
+
     b.  From your host machine, you can access the Ushahidi services by using the address we found in **Step 13c**. In our case, the address is “**192.168.56.4**”
 
-**Accessing the Ushahidi Website**
+## Accessing the Ushahidi Website ##
 
 15. Open a new Firefox browser in the VM by clicking the Firefox icon next to the menu on the upper lefthand of the screen next to “System”, or your preferred browser if you are using your host system.
 
@@ -132,13 +139,13 @@ After you are successfully logged in, you will see a blue profile picture in the
   <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/09.png"/>
 </p>
 
-**Interacting with the Ushahidi API**
+## Interacting with the Ushahidi API ##
 
 19. You can access the Ushahidi API using “localhost” on the VM itself, or by using the address found in **Step 14**. In our case this is “192.168.56.4”.
 
 20. When you are finished using the Ushahidi VM, power it down using Power button in the upper righthand corner of the screen. After it is clicked, a dialog box will show a 60 second timer. You can wait for this to timeout, or click ‘Shut down’ to skip the timer.
 
-**Interacting with the the Ushahidi Website**
+## Interacting with the the Ushahidi Website ##
 
 21. In order to become familiar with the website, lets submit a new Post to be added to the website.
 
@@ -172,7 +179,7 @@ After you are successfully logged in, you will see a blue profile picture in the
 
     c.  All of the posts on the website will be shown in the column on the left side of the window. Posts that are awaiting approval will have the ‘Under review’ tag.
 
-    
+
     <p align="center">
         <img src="https://github.com/cmacdonell/UshahidiVM/blob/master/images/installation/12.png"/>
     </p>
