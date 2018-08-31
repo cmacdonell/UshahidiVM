@@ -1,16 +1,14 @@
 # Table of Contents #
 
 
+1. **Setup**
+    1. [Things you only have to do once](#things-you-only-have-to-do-once)
+    2. [Things you do each time you want to run the VM](#things-you-do-each-time-you-want-to-run-the-vm)
 
-[Things you only have to do once](#things-you-only-have-to-do-once)
-
-[Things you do each time you want to run the VM](#things-you-do-each-time-you-want-to-run-the-vm)
-
-[Interacting with the Ushahidi API](#interacting-with-the-ushahidi-api)
-
-[Accessing the Ushahidi Website](#accessing-the-ushahidi-website)
-
-[Interacting with the the Ushahidi Website](#interacting-with-the-the-ushahidi-website)
+2. **Usage**
+    1. [Interacting with the Ushahidi API](#interacting-with-the-ushahidi-api)
+    2. [Accessing the Ushahidi Website](#accessing-the-ushahidi-website)
+    3. [Interacting with the the Ushahidi Website](#interacting-with-the-the-ushahidi-website)
 
 
 # Setup and run the VM #
