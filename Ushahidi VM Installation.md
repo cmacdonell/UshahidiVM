@@ -10,7 +10,7 @@
     3. [Interacting with the the Ushahidi Website](#interacting-with-the-the-ushahidi-website)
 
 
-# Setup and run the VM #
+# Setup and run the Virtual Machine #
 
 ## Things you only have to do once ##
 
